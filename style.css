@@ -34,4 +34,71 @@ html {
 
 body {
   font-family: Arial, Helvetica, sans-serif;
+  background-color: #E6CCB2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  height: 45rem;
+  width: 400px;
+  overflow: hidden;
+  background-color: rgb(255, 255, 255);
+  border-radius: 2rem;
+  box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.2);
+}
+
+.coffee-image {
+  height: 20rem;
+  width: 100%;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+h1 {
+  font-size: 1rem;
+  font-weight: 200;
+  color: rgb(152, 105, 72);
+  margin-bottom: 0.2rem;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  color: rgb(87, 53, 31);
+  margin-bottom: 0.2rem;
+}
+
+p {
+  font-size: 1rem;
+  font-weight: 400;
+  color: rgb(87, 53, 31);
+  margin-bottom: 0.2rem;
+}
+
+.price {
+  font-size: 4rem;
+  font-weight: 600;
+  color: rgb(152, 105, 72);
+  margin-bottom: 1rem;
+}
+
+.btn-buyCoffee {
+  background-color: rgb(87, 53, 31);
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
 }
