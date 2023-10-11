@@ -45,7 +45,7 @@ body {
   width: 400px;
   overflow: hidden;
   background-color: rgb(255, 255, 255);
-  border-radius: 1rem;
+  border-radius: 2rem;
   box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.2);
 }
 
